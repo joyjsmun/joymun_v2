@@ -1,8 +1,7 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 import {motion} from "framer-motion";
-import { useEffect } from "react";
-import { useState } from "react/cjs/react.development";
+import { useEffect,useState } from "react";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import RollingBar from "../components/rolling-bar";

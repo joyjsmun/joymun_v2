@@ -1,13 +1,9 @@
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
 import { useRouter } from "next/router";
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Header from "./components/header";
-import Headers from "./components/header";
-import { motion, AnimatePresence } from "framer-motion";
 import LeftBar from "./components/leftbar";
 import RollingBar from "./components/rolling-bar";
 

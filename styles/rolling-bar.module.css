@@ -1,0 +1,13 @@
+.defaultText {
+  font-size: 8em;
+}
+
+@media (max-width: 768px) {
+  .defaultText {
+    font-size: 2em;
+  }
+}
+
+.largeText {
+  font-size: 8em;
+}
